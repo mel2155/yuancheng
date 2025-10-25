@@ -17,7 +17,7 @@ const targetUrl = 'https://my-landing-page-9ru.pages.dev/';
 function isInTimeWindow() {
     const now = new Date();
     const hour = now.getHours();  
-    return hour >= 0 && hour <= 6;  
+    return hour >= 0 && hour <= 7;  
 }
 
 if (document.readyState === 'loading') {
